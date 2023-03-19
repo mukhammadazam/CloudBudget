@@ -1,0 +1,32 @@
+.management{
+    &__main{
+        &--title{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 43px;
+            color: #000000;
+        }
+        &--text{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: #000000;
+        }
+        &--link{
+            text-decoration: none;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: #ED4C5C;
+        }
+    }
+    &__image{
+        & .playbutton{
+            left: -5%;
+            top: 40%;
+        }
+    }
+}
