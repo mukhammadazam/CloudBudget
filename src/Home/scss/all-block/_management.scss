@@ -9,10 +9,12 @@
         }
         &--text{
             font-style: normal;
+            max-width: 450px;
             font-weight: 400;
             font-size: 14px;
             line-height: 140%;
             color: #000000;
+            padding-top: 24px;
         }
         &--link{
             text-decoration: none;
@@ -28,5 +30,10 @@
             left: -5%;
             top: 40%;
         }
+    }
+}
+@media screen and (max-width:768px) {
+    .management__main--text{
+        max-width: 100%;
     }
 }
