@@ -1,3 +1,66 @@
-.header{
-    @include BG (url(../../imges/Bg.png),no-repeat,cover,center);
+.header {
+  @include BG(url(../../imges/Bg.png), no-repeat, cover, center);
+  padding-bottom: 187px;
+}
+.nav {
+  padding-bottom: 177px;
+  &__list {
+    &--item a {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+  &__btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 11px 29px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background: transparent;
+    &:hover {
+      background: rgb(216, 89, 89);
+    }
+  }
+}
+.hero {
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__text {
+    padding: 39px 0;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+  &__btn {
+    width: 160px;
+margin: 0 auto;
+padding: 11px 29px;
+border: 1px solid #ffffff;
+border-radius: 6px;
+&:hover{
+    background:transparent;
+    color: #ffffff;
+}
+}
 }
