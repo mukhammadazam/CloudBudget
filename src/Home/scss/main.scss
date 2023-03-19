@@ -5,6 +5,10 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+img{
+  vertical-align: middle;
+  object-fit: cover
+}
 @import "./mixin";
 @import "./veraybels";
 @import "./all-block/allblock";
