@@ -6,7 +6,7 @@ import Csv from './csv.svg';
 
 const Technology = () => {
   return (
-    <div className='technology pt-5 pb-5'>
+    <div className='technology pt-5 pb-5 mb-5'>
         <div className='container'>
             <h2 className='text-center'>Technology</h2>
             <div className='row'>
