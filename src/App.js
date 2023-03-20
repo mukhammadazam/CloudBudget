@@ -5,6 +5,7 @@ import Management from './Home/Management/Management';
 import Features from './Home/Features/Features';
 import Technology from './Home/Technology/Technology';
 import Money from './Home/Money/Money';
+import Footer from './Home/Footer';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Features/>
       <Technology/>
       <Money/>
+      <Footer />
     </div>
   );
 }
