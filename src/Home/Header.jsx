@@ -62,7 +62,7 @@ const HeaderFun = () => {
               </a>
             </div>
             <div className="hero">
-              <h1 className="hero__title text-center">CloudBudget</h1>
+              <h1 className="hero__title text-center ">CloudBudget</h1>
               <p className="hero__text text-center">
                 Cloud budget management for everyone. Only €69.95 a Month After
                 a 7 Day Trial of Up to €4.99
