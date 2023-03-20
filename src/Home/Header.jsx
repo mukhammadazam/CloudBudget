@@ -41,7 +41,7 @@ const HeaderFun = () => {
                   </a>
                 </li>
                 <li className="nav__list--item p-0">
-                  <a className="text-decoration-none" href="#">
+                  <a className="text-decoration-none" href="#news">
                     CONTACT
                   </a>
                 </li>
