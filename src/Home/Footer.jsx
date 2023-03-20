@@ -19,7 +19,7 @@ const Footer = () => {
             </li>
             <li className="footer__list--item">
               <h6 className="footer__list--title">Services</h6>
-              <ul className="p-0">
+              <ul className="p-0 gap-2">
                 <li className="item">overview</li>
                 <li className="item">features</li>
                 <li className="item">technology</li>
@@ -31,13 +31,13 @@ const Footer = () => {
               <h6 className="footer__list--title">Get in Touch</h6>
               <a
                 href="#"
-                className="footer__list--link text-decoration-none d-block"
+                className="footer__list--link text-decoration-none py-3 d-block"
               >
                 info@cloudbudget.com
               </a>
               <a
                 href="#"
-                className="footer__list--link text-decoration-none d-block"
+                className="footer__list--link pb-3 text-decoration-none d-block"
               >
                 +1 844-721-7120
               </a>
@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
             </li>
             <li className="footer__list-item">
-              <h6 className="footer__title">We Support</h6>
+              <h6 className="footer__title ">We Support</h6>
               <img src={logo4} alt="kartalar" />
             </li>
           </ul>
