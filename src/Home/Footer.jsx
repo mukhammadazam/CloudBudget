@@ -30,13 +30,13 @@ const Footer = () => {
             <li className="footer__list--item col-sm-6 col-12 col-lg-3">
               <h6 className="footer__list--title">Get in Touch</h6>
               <a
-                href="#"
+                href="#news"
                 className="footer__list--link text-decoration-none py-3 d-block"
               >
                 info@cloudbudget.com
               </a>
               <a
-                href="#"
+                href="#news"
                 className="footer__list--link pb-3 text-decoration-none d-block"
               >
                 +1 844-721-7120
