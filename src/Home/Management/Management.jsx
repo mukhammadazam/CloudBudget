@@ -5,7 +5,7 @@ import '../scss/main.scss';
 const Management = () => {
   return (
     <div className='container'>
-        <div className='row managements d-flex align-items-center justify-content-between g-5 pt-5 pb-5'>
+        <div className='row managements d-flex align-items-center justify-content-between gy-5 pt-5 pb-5'>
             <div className='col-md-6 col-12 management'>
                 <div className='management__main text-center text-md-start'>
                     <h3 className='management__main--title'>Easy to Use Cloud Budget Management Software</h3>

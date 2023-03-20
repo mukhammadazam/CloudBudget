@@ -2,7 +2,7 @@
     background: #ED4C5C;
 }
 .money{
-    &__main{
+    &__main{     
         color: #fff;
 
         &--title{
@@ -30,25 +30,6 @@
         }
     }
 }
-.money__image--wrapper{
-    width: 100%;
-    height: auto;
-}
-.money__image--wrapper img:nth-child(1){
-    position: absolute;
-    top: 0;
-    z-index: 4;
-}
-.money__image--wrapper img:nth-child(2){
-    top: 40px;
-    left: -30px;
-    z-index: 2;
-}
-.money__image--wrapper img:nth-child(3){
-    top: 40px;
-    right: 10px;
-    z-index: 3;
-}
 @media screen and (max-width:768px) {
     .money{
         &__main{
@@ -57,10 +38,5 @@
             }
         }
     }
-    .money__image--wrapper{
-        margin-left: 5%;
-    }
-}
-@media screen and (max-width:568px) {
-    
+
 }
