@@ -4,21 +4,26 @@ import Burger from "./imges/burger.png";
 import "./scss/main.scss";
 const HeaderFun = () => {
   const [BtnSubmit, setbtnSubmit] = useState();
+  const [FormSubmit, setformSubmit] = useState();
   const Btn = () => {
     return setbtnSubmit(!BtnSubmit);
+  };
+  const Form = () => {
+    return setformSubmit(!FormSubmit);
   };
   return (
     <>
       <header className="header">
         <nav>
-          <div className="container">
+          <div className="container ">
             <div className="nav pt-5  d-flex align-items-lg-center align-items-start justify-content-between">
               <a href="logo" className="nav__link">
                 <img src={Logo} alt="logo" />
               </a>
               <ul
                 className={`nav__list ${
-                  BtnSubmit ? "d-block bg-danger p-3 radius" : "d-none"}  mb-0    d-lg-flex align-items-lg-center justify-content-center`}
+                  BtnSubmit ? "d-block bg-danger p-3 radius" : "d-none"
+                }  mb-0    d-lg-flex align-items-lg-center justify-content-center`}
               >
                 <li className="nav__list--item p-0">
                   <a className="text-decoration-none" href="#">
@@ -46,7 +51,7 @@ const HeaderFun = () => {
                   </a>
                 </li>
               </ul>
-              <button className="nav__btn ">LOGIN</button>
+              <button onClick={Form} className="nav__btn ">LOGIN</button>
               <a onClick={Btn} className="nav__burger" href=" #">
                 <img
                   className="bg-transparent"
@@ -63,7 +68,26 @@ const HeaderFun = () => {
                 a 7 Day Trial of Up to €4.99
               </p>
               <button className="hero__btn d-block">Sign Up</button>
+              <form
+              action="#"
+              className={`form ${
+                FormSubmit ? "d-block "  : "d-none"
+              } p-5 position-absolute  rounded`}
+            >
+              <input
+                className="email d-block mb-5   border-danger bg-transparent border-start-0 border-end-0 border-top-0 "
+                type="email"
+              />
+              <input
+                className="password d-block mb-5 border-danger   bg-transparent bg-transparent border-start-0 border-end-0 border-top-0"
+                type="password"
+              />
+              <button onClick={Form} className="form__btn d-block">
+                Login
+              </button>
+            </form>
             </div>
+            
           </div>
         </nav>
       </header>
