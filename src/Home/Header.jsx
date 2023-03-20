@@ -17,7 +17,7 @@ const HeaderFun = () => {
         <nav>
           <div className="container ">
             <div className="nav pt-5  d-flex align-items-lg-center align-items-start justify-content-between">
-              <a href="#" className="nav__link">
+              <a href="#news" className="nav__link">
                 <img src={Logo} alt="logo" />
               </a>
               <ul
@@ -26,17 +26,17 @@ const HeaderFun = () => {
                 }  mb-0    d-lg-flex align-items-lg-center justify-content-center`}
               >
                 <li className="nav__list--item p-0">
-                  <a className="text-decoration-none" href="#">
+                  <a className="text-decoration-none" href="#news">
                     OVERVIEW
                   </a>
                 </li>
                 <li className="nav__list--item p-0">
-                  <a className="text-decoration-none" href="#">
+                  <a className="text-decoration-none" href="#news">
                     FEATURES
                   </a>
                 </li>
                 <li className="nav__list--item p-0">
-                  <a className="text-decoration-none" href="#">
+                  <a className="text-decoration-none" href="#news">
                     TECHNOLOGY
                   </a>
                 </li>
@@ -46,13 +46,13 @@ const HeaderFun = () => {
                   </a>
                 </li>
                 <li className="nav__list--item p-0">
-                  <a className="text-decoration-none" href="#">
+                  <a className="text-decoration-none" href="#news">
                     Sign up
                   </a>
                 </li>
               </ul>
               <button onClick={Form} className="nav__btn ">LOGIN</button>
-              <a onClick={Btn} className="nav__burger" href="#">
+              <a onClick={Btn} className="nav__burger" href="#news">
                 <img
                   className="bg-transparent"
                   src={Burger}
@@ -69,7 +69,7 @@ const HeaderFun = () => {
               </p>
               <button className="hero__btn d-block">Sign Up</button>
               <form
-              action="#"
+              action="#news"
               className={`form ${
                 FormSubmit ? "d-block "  : "d-none"
               } p-5 position-absolute  rounded`}
