@@ -5,6 +5,7 @@
 .nav {
   padding-bottom: 177px;
   &__list {
+    gap: 30px;
     &--item a {
       font-style: normal;
       font-weight: 700;
@@ -28,10 +29,56 @@
     border-radius: 6px;
     background: transparent;
     &:hover {
-      background: rgb(216, 89, 89);
+      background-color: #fff;
+      border: 1px solid #7c1010;
+      color: #7c1010;
     }
   }
+  &__burger{
+    display: none;
+  }
 }
+
+.radius{
+border-radius: 10px;
+}
+@media screen and (max-width: 992px) {
+  .nav {
+    padding-bottom: 177px;
+    &__list {
+        position: absolute;
+        left: 0;
+        display: none;
+        gap: 0;
+        &--item a{
+            font-size: 18px;
+            padding-bottom: 30px;
+        }     
+    }
+    &__btn {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding: 11px 29px;
+      border: 1px solid #ffffff;
+      border-radius: 6px;
+      background: transparent;
+      &:hover {
+        background-color: #fff;
+        border: 1px solid #7c1010;
+        color: #7c1010;
+      }
+    }
+    &__burger{
+      display: block;
+    }
+  }
+ 
+}
+
 .hero {
   &__title {
     font-style: normal;
@@ -54,13 +101,28 @@
   }
   &__btn {
     width: 160px;
-margin: 0 auto;
-padding: 11px 29px;
-border: 1px solid #ffffff;
-border-radius: 6px;
-&:hover{
-    background:transparent;
-    color: #ffffff;
+    margin: 0 auto;
+    padding: 11px 29px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    &:hover {
+      background: transparent;
+      color: #ffffff;
+    }
+  }
 }
-}
+@media screen and (max-width: 576px){
+  .hero {
+    &__title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 64px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  
+   
+    
+  }
 }
