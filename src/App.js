@@ -7,6 +7,7 @@ import Technology from './Home/Technology/Technology';
 import Money from './Home/Money/Money';
 import Contact from './Home/Contact/Contact';
 
+import Footer from './Home/Footer';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Technology/>
       <Money/>
       <Contact/>
+      <Footer />
     </div>
   );
 }
