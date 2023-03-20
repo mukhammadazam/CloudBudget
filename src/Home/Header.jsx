@@ -17,7 +17,7 @@ const HeaderFun = () => {
         <nav>
           <div className="container ">
             <div className="nav pt-5  d-flex align-items-lg-center align-items-start justify-content-between">
-              <a href="logo" className="nav__link">
+              <a href="#" className="nav__link">
                 <img src={Logo} alt="logo" />
               </a>
               <ul
@@ -52,7 +52,7 @@ const HeaderFun = () => {
                 </li>
               </ul>
               <button onClick={Form} className="nav__btn ">LOGIN</button>
-              <a onClick={Btn} className="nav__burger" href=" #">
+              <a onClick={Btn} className="nav__burger" href="#">
                 <img
                   className="bg-transparent"
                   src={Burger}
