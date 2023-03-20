@@ -8,8 +8,8 @@ const Footer = () => {
     <footer>
       <div className="container pt-5">
         <div className="footer pt-5">
-          <ul className="footer__list d-lg-flex   justify-content-center align-items-lg-start justify-content-lg-between">
-            <li className="footer__list--item">
+          <ul className="footer__list d-md-flex row gy-5  justify-content-center align-items-lg-start justify-content-md-between">
+            <li className="footer__list--item col-sm-6 col-12 col-lg-3">
               <h6 className="footer__title">Address</h6>
               <p className="footer__text">
                 Pipang Ltd, Griva Digeni, <br />
@@ -17,7 +17,7 @@ const Footer = () => {
                 1090 Picosia USA
               </p>
             </li>
-            <li className="footer__list--item">
+            <li className="footer__list--item col-sm-6 col-12 col-lg-3">
               <h6 className="footer__list--title">Services</h6>
               <ul className="p-0 gap-2">
                 <li className="item">overview</li>
@@ -27,7 +27,7 @@ const Footer = () => {
                 <li className="item">Privecy</li>
               </ul>
             </li>
-            <li className="footer__list--item">
+            <li className="footer__list--item col-sm-6 col-12 col-lg-3">
               <h6 className="footer__list--title">Get in Touch</h6>
               <a
                 href="#"
@@ -41,13 +41,13 @@ const Footer = () => {
               >
                 +1 844-721-7120
               </a>
-              <div className=" d-flex align-items-center justify-content-center gap-3">
+              <div className=" d-flex gap-3">
                 <img className="d-block" src={logo1} alt="fasbook" />
                 <img className="d-block" src={logo2} alt="linkidin" />
                 <img className="d-block" src={logo3} alt="twtr" />
               </div>
             </li>
-            <li className="footer__list-item">
+            <li className="footer__list-item col-sm-6 col-12 col-lg-3">
               <h6 className="footer__title ">We Support</h6>
               <img src={logo4} alt="kartalar" />
             </li>
