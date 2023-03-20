@@ -22,7 +22,7 @@ const Contact = () => {
 
   return (
     <div className='container'>
-        <div className='row contact d-flex align-items-center justify-content-between pt-5 pb-5 mb-5'>
+        <div className='row contact d-flex align-items-center justify-content-between pt-5 pb-5'>
             <div className='col-md-6 col-12'>
                 <div className='contact__main text-md-start text-center'>
                     <h3 className='contact__main--title'>Contact</h3>
